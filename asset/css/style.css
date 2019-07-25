@@ -13,14 +13,18 @@
 
   input[type=text],
   textarea {
-    width: 100%;
+    display: block;
+    overflow: hidden;
+    width: 600px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    margin-right: 20px;
     resize: vertical;
+
   }
 
   input[type=submit] {
@@ -62,12 +66,14 @@
   .contactcontainer {
     clear: both;
     float: left;
+    display: block;
+    overflow: hidden; 
     border-radius: 5px;
     /* border: 2px solid red; */    
     background-color: #f2f2f2;
     padding: 20px;
     margin: 30px;
-    width: 100%;
+    /* width: 960px; */
     border: 5px ;
   } 
 
