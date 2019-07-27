@@ -14,6 +14,9 @@
     background-color:lightblue;
     /* background: url(""); */
     background: #4aaaa5 url("../img/background.jpg") no-repeat fixed center; 
+
+    /* padding-top: 100px;
+    padding-bottom: 40px; */
     
     /* border: 1px solid red; */
   }
@@ -103,7 +106,7 @@
   }
 
   .topnav {
-    position: fixed;
+    position: sticky;
     background-color:#ffffff;
     height: 50px;    
     border: 1px solid #cccccc;    
@@ -111,6 +114,10 @@
     left:0;
     width: 100%;    
     opacity: 0.7;
+    /* border: 2px solid red; */
+    z-index: 10000;
+    border-radius: 8px;
+    
 
   }
 
@@ -121,16 +128,21 @@
   .navList a {
     
     display: inline-block;
-    color:black;
+    color:darkgray;
     text-align: center; 
     text-decoration: none;
     padding: 10px 10px;
     height: auto;
     font-size: 10px;
     margin:10px;
-    border-radius: 5px;    
+    border-radius: 4px;    
     border-right: 1px solid lightgray;
+    
+  }
 
+  .topnav a.active {    
+    color:black;
+    background-color: #4aaaa5;
   }
 
   .navList a:last-of-type {
@@ -144,11 +156,11 @@
    } 
    
    .maintitlename {
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 50px;
-    width:10%;
-    left:14.7%;
+    width:200px;
+    left:14.4%;
     background-color:#4aaaa5;
     color: white;
     margin: 0px 0px 20px 30px;
@@ -170,6 +182,7 @@
     border-top: 5px solid #4aaaa5;
     height: 50px;
     margin-top: 100px; 
+    border-radius: 8px;
   }
 
   .bodytitle {
