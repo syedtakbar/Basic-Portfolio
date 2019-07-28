@@ -70,39 +70,25 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);  */
     opacity: 0.8;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 
   }
 
 
-  a.activeMenuItem {
-    background-color: #F00;
+  .current {
+    background-color: #ddd;
     font-weight: bold;
+    color:black;
   }
 
  
 
   .contactcontainer {
-    /* clear: both;
-    float: left; */
     
     border-radius: 8px;
-    /* border: 2px solid red; */    
-    /* background-color: #f2f2f2; */
-
     padding: 20px;
     margin: 30px;
-    /* width: 960px; */
     border: 1px solid #dddddd;  
-
-    /* height: auto;
-    overflow: auto;  */
-
-    /* position: absolute;
-    top: 60%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);  */
   } 
 
   .titlename {
@@ -218,19 +204,6 @@
     padding: 20px 20px 20px 5px;
     border-radius: 5px;
   }
-
-  /* .image { 
-    position: relative; 
-    width: 100%; 
- } */
- 
-  /* .caption { 
-      position: absolute; 
-      top: 200px; 
-      left: 0; 
-      width: 100%; 
-  } */
-
 
   .portimage_col {  
     float:left;
